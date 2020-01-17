@@ -94,7 +94,6 @@ class PokemonManagerState extends State {
                 MaterialButton(
                   child: Text("Reset"),
                   color: Colors.redAccent,
-
                   onPressed: () {
                     formKey.currentState.reset();
                   },
@@ -106,7 +105,6 @@ class PokemonManagerState extends State {
       ),
     ]);
   }
-
 
   _submit() {
     if (!formKey.currentState.saveAndValidate()) {
